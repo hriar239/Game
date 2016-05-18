@@ -6,10 +6,7 @@
 # This code was written with the anger fueled by him, so thank him for the inspiration.
 # P.S. this is my first python file and code, so feel free to help me out. Thank you!
 
-import string
 import random
-import os
-import msvcrt as m
 
 # Strings. werewolves and not werewolves.
 w = "a werewolf."
@@ -24,23 +21,6 @@ print "This game is for 10 people only."
 # have this application, and instead give out a label with each player
 # number. The player number will get the string of either W or NW.
 
-# I am not sure if this will work. If it does not, it was probably commented.
-# clear = lambda: os.system('cls')
-
-# Let's see if this one works.
-# def cls():
-#     os.system('cls' if os.name == 'nt' else 'clear')
-# Nope ):
-
-
-# Alright one last time.
-# class Cls(object):
-#     def __repr__(self):
-#         os.system('cls')
-#         return ''
-# cls = Cls()
-# Nah.
-
 # Array and Rands.
 items = [w, nw]
 rand_r1 = random.choice(items)
@@ -54,8 +34,8 @@ rand_r8 = random.choice(items)
 rand_r9 = random.choice(items)
 rand_r10 = random.choice(items)
 
-# The PLAYAZ AWW YISS
-# I mean, uh, the players.
+# The players, getting assigned random strings.
+
 p1 = rand_r1
 p2 = rand_r2
 p3 = rand_r3
